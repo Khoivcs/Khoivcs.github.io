@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@import url(https://fonts.googleapis.com/css?family=Festive);
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+.canvas_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.canvas_conteiner h1 {
+    display: inline-block;
+  font-size: 15rem;
+  font-family: "Roboto";
+  font-weight: 900;
+  background-image: url(https://c.tenor.com/7k2yASJxRuEAAAAM/stars-twinkling.gif);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.canvas_conteiner h2 {
+    display: inline-block;
+  font-family: "Festive";
+  font-size: 3rem;
+  position: relative;
+  bottom: 0px;
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.canvas_conteiner #new-text {
+    display: inline-block;
+  font-family: "Festive";
+  font-size: 2rem;
+  position: relative;
+  bottom: 0px;
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+.canvas_conteiner h1 {
+    font-size: 11rem;
+  }
+  
+.canvas_conteiner h2 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 160px;
+  }
+}
+
+.wish{
+    display: block;
+    padding-top: 120px;
+   font-family: serif;
+
+
+}
+
+
